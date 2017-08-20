@@ -1,0 +1,228 @@
+body{
+ margin: 0px;   
+font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+}
+
+.row:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/* HEADER*/
+
+.logo{
+    width: 250px;
+    height: 100px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.logoimg{
+    width: 100%;
+    height: auto;
+}    
+
+/* NAVIGATION*/
+.navigation{
+    width: 950px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 60px 0px 0px 0px;
+    float: right;
+}
+
+.navigation{
+    width:950px;
+    height:40px;
+    padding:60px 0px 0px 0px;
+    float:left;
+    
+}
+
+
+.navigation ul{
+    margin:0px;
+    list-style: none;
+    padding:0px;
+    text-align: right;
+}
+
+.navigation ul li{
+    display: inline-block;
+    
+    
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color:#3a393a;
+    padding:0px 35px;
+    line-height: 30px;
+    display: block;
+}
+
+.navigation ul li a:hover{
+    background-color: #bcbcbc;
+    color:#fff;
+}
+
+
+/* BANNER*/
+.ban{
+    width: 100%;
+    height: auto;
+}
+
+.ban img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* BLOCKS*/
+
+.mcbl{
+    margin-top: 40px;
+    display: flex;
+}
+
+.block{
+    width: 270px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid #edf0f4;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #7a425e;
+}
+
+.block h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+
+.block img{
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    display: block;
+     margin-bottom: 40px;
+    
+}
+
+.block p{
+    text-align: center;
+    color: #d8d6d7;
+}
+
+/*ABOUT US*/
+
+.about{
+    width: 700px;
+    margin: 15px;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    float:left; 
+}
+
+.about h2{
+    text-align: center;
+    color: #e0598d; 
+    margin-top: 0px;
+   font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+}
+
+.about p{
+    text-align:center;
+    color: #727172;
+    font-size: 18px;
+    margin-top: 30px;
+    
+}
+
+.video{
+    width: 500px;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    float: right;
+    
+}
+
+.vid{
+    margin: 0px auto;
+    display: block;
+}
+
+
+/* TRAVELOGUE */
+
+.travel h2{
+    text-align: center;
+     margin-top: 20px;
+    font-size: 26px;
+    color: #fff;
+   
+    
+}
+.travel{
+    width: 100%;
+    height: auto;
+    background-color: #a3597e;
+    margin-top: 40px;
+    display: table;
+    
+}
+
+.tblock{
+     width: 270px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #edf0f4;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+.timg{
+    width: 240px;
+    height: 200px;
+}
+
+.travel p{
+    text-align: center;
+    color: #727172;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
